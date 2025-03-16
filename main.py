@@ -9,7 +9,7 @@ app = FastAPI()
 
 client = InferenceClient(
     provider="fireworks-ai",
-    api_key="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",
+    api_key="",
 )
 
 templates = Jinja2Templates("templates")
